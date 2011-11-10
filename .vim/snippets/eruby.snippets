@@ -1,0 +1,30 @@
+snippet each
+	<% ${1}.each do |${2}| %>
+		${3}
+	<% end %>
+snippet if
+	<% if ${1} %>
+		${2}
+	<% end %>
+snippet unless
+	<% unless ${1} %>
+		${2}
+	<% end %>
+snippet eq 
+	<%= ${1} %>
+snippet p
+	<p>
+		${1}
+	</p>
+snippet hr
+	<hr/>
+snippet br
+	<br/>
+snippet form_for
+	<% form_for ${1:type}, ${2:obj}, :url => {} do |${3}| %>
+		${4}
+	<% end %>
+snippet cycle
+	<%= cycle('${1:odd}', '${2:even}') %>
+snippet cycle=
+	<% @cycle = cycle('${1:odd}', '${2:even}') %>

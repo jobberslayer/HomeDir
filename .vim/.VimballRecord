@@ -1,0 +1,4 @@
+tselectfiles.vba: call delete('/Users/klester/.vim/doc/tselectfiles.txt')|call delete('/Users/klester/.vim/plugin/tselectfiles.vim')|call delete('/Users/klester/.vim/autoload/tselectfiles.vim')
+supertab.vba: call delete('/Users/kevin/.vim/doc/supertab.txt')|call delete('/Users/kevin/.vim/plugin/supertab.vim')
+snippy_plugin.vba: call delete('/Users/klester/.vim/plugin/snippetsEmu.vim')|call delete('/Users/klester/.vim/doc/snippets_emu.txt')
+checksyntax.vba: call delete('/Users/klester/.vim/doc/checksyntax.txt')|call delete('/Users/klester/.vim/plugin/checksyntax.vim')|call delete('/Users/klester/.vim/autoload/checksyntax.vim')
